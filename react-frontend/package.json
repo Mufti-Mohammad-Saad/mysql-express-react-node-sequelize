@@ -1,0 +1,40 @@
+{
+  "name": "simple-reactjs-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://aditya-sridhar.github.io/simple-reactjs-app",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "formik": "^2.4.6",
+    "react": "^18.3.1",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^5.0.1",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
